@@ -1,79 +1,90 @@
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
-    margin: 0;
-    padding: 0;
+.header{
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -40px;
+}
+.logo_formula{
+    width: 30%;
+    border-radius: 8px;
+    margin-right: auto;
+}
+.logo_panetti{
+    width: 30%;
+    border-radius: 8px;
+    margin-top: -20px;
+    margin-left: 50px;
+}
+.scritte{
+    flex: 1; 
+    text-align: center; 
+    font-size: 3vh; 
+    font-weight: bold;
+    color: #000;
+    margin: 0;
+}
+
+
+.container_main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -5px;
+}
+.regola1{
+    width: 25%;
+    background-color: #c1c1c1;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    border-radius: 8px; 
+    }
+.regola2{
+    width: 25%;
+    background-color: #c1c1c1;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    border-radius: 8px; 
+}
+.info-box{
+    margin-left: -25%;
+    margin-left: auto;
+    
+}
+.info-box li{
+    margin-left: auto;
+}
+
+.semaforo_container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 50%;
+    margin: 2vh;
+
+}
+.semaforo{
+    display: flex;
+    width: fit-content;
+    padding: 1vh;
+    border-radius: 5px;
+    flex-flow: column;
     align-items: center;
     justify-content: center;
-    min-height: 100vh;
+    background-color: #101010;
+    height: fit-content;
 }
-.container {
-    text-align: center;
-}
+.luce{
+    border-radius: 60%;
+    width: 50px;
+    height: 40px;
+    margin: 0.5vh;
 
-.bg-red {
-    background-color: #dc2626;
-    width: 3rem;
-    height: 3rem;
-    border-radius: 50%;
 }
-
-.bg-black {
-    background-color: #000;
-    padding: 0.5rem;
-    border-radius: 0.5rem;
-    display: inline-block;
+.gray{
+    background-color: #303030;
 }
-
-.bg-gray {
-    background-color: #1f2937;
-    width: 3rem;
-    height: 3rem;
-    margin-bottom: 0.5rem;
-    border-radius: 50%;
+.red{
+    background-color: red;
 }
-
-.info-box {
-    background-color: rgba(255, 255, 255, 0.75);
-    padding: 1rem;
-    border-radius: 0.5rem;
-    color: #000;
-    text-align: left;
-    margin: 1rem 0;
+.green{
+    background-color: green;
 }
-
-.instructions {
-    list-style-type: disc;
-    padding-left: 1.25rem;
-}
-
-.time-display {
-    font-size: 2.5rem;
-    font-weight: bold;
-    margin-bottom: 1rem;
-}
-
-.start-button {
-    background-color: #dc2626;
-    color: #fff;
-    font-size: 1.5rem;
-    font-weight: bold;
-    padding: 0.5rem 2rem;
-    border-radius: 0.5rem;
-    border: none;
-    cursor: pointer;
-    margin-bottom: 1rem;
-}
-
-.start-button i {
-    margin-left: 0.5rem;
-}
-
-.reaction-time {
-    background-color: rgba(255, 255, 255, 0.75);
-    padding: 0.5rem;
-    border-radius: 0.5rem;
-    color: #000;
-}
+    
