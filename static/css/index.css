@@ -1,27 +1,44 @@
+body {
+    background: url('img/sfondo.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100vh;
+    overflow-x: hidden;
+}
+.all{
+    margin-top: 50px;
+}
 .header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: -40px;
+    margin-top: -70px;
 }
 .logo_formula{
     width: 30%;
     border-radius: 8px;
-    margin-right: auto;
+    margin-right: -50px;
+    margin-left: 50px;
+    margin-top: 40px;  
 }
 .logo_panetti{
     width: 30%;
     border-radius: 8px;
-    margin-top: -20px;
+    margin-top: 40px;
     margin-left: 50px;
+    margin-right: -170px;
 }
 .scritte{
-    flex: 1; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center; 
     font-size: 3vh; 
     font-weight: bold;
-    color: #000;
-    margin: 0;
+    color: #ffffff; 
+    margin-right: 120px;
+    margin-top: 15px;
 }
 
 
@@ -29,19 +46,21 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: -5px;
+    margin-top: -20px;
 }
 .regola1{
     width: 25%;
-    background-color: #c1c1c1;
+    background-color: #550000;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
     border-radius: 8px; 
+    color: #ffffff;
     }
 .regola2{
     width: 25%;
-    background-color: #c1c1c1;
+    background-color: #550000;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
     border-radius: 8px; 
+    color: #ffffff;
 }
 .info-box{
     margin-left: -25%;
@@ -87,4 +106,38 @@
 .green{
     background-color: green;
 }
-    
+
+
+.button_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}  
+.button{
+    background-color: #550000;
+    color:#ffffff;
+    font-size: 2em;
+    padding: 20px 50px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-left: 10px;
+    width: 200px;
+    text-align: center;
+}
+.contatore{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.tempo{
+    font-size: 2em;
+    color: #ffffff;
+    margin: 0;
+}
+.risultato{
+    text-align: center; 
+    font-size: 2em; 
+    color: white;
+    margin-top: 20px; 
+}
